@@ -1,7 +1,7 @@
-const livros = require('./database')
-
 //readline-sync //lib
 const read = require('readline-sync')
+const buscarLivros = require('./controllers/buscarLivros')
+
 const resposta = read.question(`
 ======================= Menu =======================
 
@@ -14,3 +14,25 @@ const resposta = read.question(`
 
 Digite um numero[1-5];
 `)
+
+//Quando a pessoa escolher a opção 1, eu quero que o js chame
+//a funcao que vai estar no controllers/buscarLivros.js
+
+switch (resposta) {
+    case '1':
+        buscarLivros()
+        break
+    case '2':
+        //chame funcao listarLivrosOrdenados
+        break
+    case '3':
+        //chame funcao livrosRecomendados
+        break
+    case '4':
+        //
+        break
+    case '5':
+    default:
+        console.log('fim do algoritmo')
+    break
+}
