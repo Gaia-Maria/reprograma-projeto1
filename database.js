@@ -1,23 +1,23 @@
 //
 const livros = [
     {
-      nome: 'Algoritmos para viver',
-      categoria: 'tecnologia',
-      paginas: 500,
+      nome: 'O Retrato de Dorian Gray',
+      categoria: 'romance',
+      paginas: 222,
       recomenda: true,
       leu: true
     },
     {
-      nome: 'Algoritmos de destruição em massa',
-      categoria: 'tecnologia',
-      paginas: 300,
-      recomenda: true,
-      leu: true
+      nome: 'Guia Politicamente Incorreto da História do Brasil',
+      categoria: 'fantasia',
+      paginas: 382,
+      recomenda: false,
+      leu: false
     },
     {
-      nome: 'Estrutura de dados e algoritmos com JavaScript',
-      categoria: 'tecnologia',
-      paginas: 350,
+      nome: 'Trilogia Da Fundacão',
+      categoria: 'ficcao',
+      paginas: 896,
       recomenda: true,
       leu: true
     },
@@ -36,37 +36,37 @@ const livros = [
       leu: true
     },
     {
-      nome: 'Torto Arado',
-      categoria: 'romance',
-      paginas: 245,
-      recomenda: true,
-      leu: true
-    },
-    {
-      nome: 'Dororidade',
+      nome: 'O feminismo é para todo mundo: Políticas arrebatadoras',
       categoria: 'feminismo',
-      paginas: 98,
+      paginas: 185,
       recomenda: true,
-      leu: true
-    },
-    {
-      nome: 'Um exu em Nova York',
-      categoria: 'contos',
-      paginas: 120,
-      recomenda: true,
-      leu: true
-    },
-    {
-      nome: 'Para todas as pessoas intensas',
-      categoria: 'fantasia',
-      paginas: 150,
-      recomenda: false,
       leu: false
     },
     {
-      nome: 'Your name',
-      categoria: 'mangá',
-      paginas: 400,
+      nome: 'Americanah',
+      categoria: 'ficcao',
+      paginas: 522,
+      recomenda: true,
+      leu: true
+    },
+    {
+      nome: 'O Chamado de Cthulhu',
+      categoria: 'ficcao',
+      paginas: 51,
+      recomenda: false,
+      leu: true
+    },
+    {
+      nome: 'Grimorio Oculto',
+      categoria: 'ocultismo',
+      paginas: 256,
+      recomenda: true,
+      leu: false
+    },
+    {
+      nome: 'A Divina Comedia',
+      categoria: 'romance',
+      paginas: 528,
       recomenda: true,
       leu: true
     }

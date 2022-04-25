@@ -1,5 +1,4 @@
 //Deverá ser possível buscar livros pela categoria
-
 const livros = require('../database')
 const read = require ('readline-sync')
 
@@ -12,13 +11,15 @@ const buscarLivros = () => {
     if (opcaoInicial === 'S') {
         //mostar no codigo todas as categorias existentes 
     const categorias = livros.map(livro => livro.categoria)
-    console.table(categorias)
+    let naoRepetidos = categorias.filter((este, i) => categorias.indexOf(este) === i);
+    console.table(naoRepetidos)
 
     const inputCategoria = read.question('Digite uma categoria conforme a tabela acima:')
 
     const confirmacao = read.question ('Tem certeza? S/N').toLocaleUpperCase()
 
     if (confirmacao === 'S' ){
+        console.clear()
         const livrosFiltrados = livros.filter(livro => livro.categoria === inputCategoria)
         console.table(livrosFiltrados)
          }
