@@ -26,7 +26,8 @@ leu: *boolean*
 
 *Fim do algoritmo*   
 
-Sentimento da semana
-<img src="https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif" />
+Sentimento da semana  
+
+![Alt text](https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif")
 
 
