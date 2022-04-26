@@ -1,6 +1,4 @@
-<spam align="center">
-# {REPROGRAMA} - PROJETO 1
-</spam>
+<h1 align="center"> {REPROGRAMA} - PROJETO 1 </h1> <br>
 
 Contem projeto da semana 5 da Reprograma. O projeto consiste em elaborar um sistema que gerencia livros.
 Seguindo os seguintes criterios:
@@ -26,6 +24,9 @@ paginas: *number*
 recomenda: *boolean*
 leu: *boolean*
 
-*Fim do algoritmo*
+*Fim do algoritmo*   
 
-## <img src="file:///C:/Users/Gaia%20Maria/Desktop/Reprograma/gifs/karol-conka.gif" width="100px"> Sentimento do semana </h2>
+Sentimento da semana
+<img src="https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif />
+
+
