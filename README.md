@@ -28,6 +28,6 @@ leu: *boolean*
 
 Sentimento da semana  
 
-![Alt text](https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif")
+<img src="https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif" width="40" height="40" />
 
 
