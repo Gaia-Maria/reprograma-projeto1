@@ -27,6 +27,6 @@ leu: *boolean*
 *Fim do algoritmo*   
 
 Sentimento da semana
-<img src="https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif />
+<img src="https://c.tenor.com/rH06jxT7u0kAAAAC/karol-conka.gif" />
 
 
